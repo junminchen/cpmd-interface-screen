@@ -1,0 +1,26 @@
+{
+  "system_name": "ec_probe_demo",
+  "formulation_id": "ec_probe_demo",
+  "lithium_resnames": ["LiA"],
+  "additive_species": [
+    {
+      "name": "EC_probe",
+      "resnames": ["ECA"],
+      "donor_atoms": ["O00", "O02", "O05"]
+    }
+  ],
+  "reference_species": [
+    {
+      "name": "DMC",
+      "resnames": ["DMC"],
+      "donor_atoms": ["O01", "O03", "O04"]
+    }
+  ],
+  "electrode_margin_angstrom": 1.0,
+  "interface_width_angstrom": 5.0,
+  "bulk_region": {
+    "mode": "auto"
+  },
+  "li_coordination_cutoff_angstrom": 2.8,
+  "use_xy_pbc": true
+}

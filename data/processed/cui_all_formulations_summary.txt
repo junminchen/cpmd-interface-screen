@@ -1,0 +1,30 @@
+All Cui formulations export summary
+all_rows: 150
+unique_formulations: 148
+anion_counts:
+  FSI: 76
+  PF6: 33
+  TFSI: 31
+  ClO4: 2
+  AsF6: 1
+  BETI: 1
+  BF4: 1
+  DFOB: 1
+  TFPFB: 1
+  NA: 1
+top_duplicate_formulations:
+  1_m_lifsi_dee: n_conditions=2, ce_range=[98.90, 99.04]
+  1_2m_lifsi_dmc_btfe_1_2_mol: n_conditions=2, ce_range=[98.20, 99.50]
+  1_m_lipf6_fec_dmc_1_1_v_1_25wt_12_crown_4: n_conditions=1, ce_range=[96.75, 96.75]
+  1_m_lipf6_ec_dec_1_1_vol_5_vol_fec: n_conditions=1, ce_range=[95.00, 95.00]
+  1_m_lipf6_fec_emc_dmc_34_6_57_2_8_2_wt: n_conditions=1, ce_range=[95.00, 95.00]
+  1_m_lipf6_in_ec_dec_0_15m_lidfp: n_conditions=1, ce_range=[95.20, 95.20]
+  1_m_lipf6_fec_dmc_1_1_v_1_75wt_12_crown_4: n_conditions=1, ce_range=[95.35, 95.35]
+  1_m_lipf6_fec_dmc_1_1_v_1_5wt_12_crown_4: n_conditions=1, ce_range=[95.58, 95.58]
+  1_m_lipf6_fec_dmc_1_1_v_0_5wt_12_crown_4: n_conditions=1, ce_range=[95.76, 95.76]
+  6_m_lipf6_ec_dec_1_1_vol: n_conditions=1, ce_range=[96.00, 96.00]
+  1_5_m_liasf6_pc: n_conditions=1, ce_range=[85.00, 85.00]
+  1_m_lipf6_ec_dmc_1_1_v_0_5_m_lino3_tegdme_50: n_conditions=1, ce_range=[97.90, 97.90]
+  1_m_lipf6_fec_dmc_1_1_v_0_75wt_12_crown_4: n_conditions=1, ce_range=[96.82, 96.82]
+  1m_lipf6_fec_dec_1_1_w_w: n_conditions=1, ce_range=[97.00, 97.00]
+  1_m_lipf6_fec_ec_dec_2_9_9_vol_0_1_m_rbno3_0_1m_18_crown_6: n_conditions=1, ce_range=[97.10, 97.10]

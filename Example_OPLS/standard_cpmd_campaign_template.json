@@ -1,0 +1,49 @@
+{
+  "campaign_name": "standard_constant_potential_screening",
+  "cell": {
+    "box_x_angstrom": 55.0,
+    "box_y_angstrom": 55.0,
+    "box_z_angstrom": 90.0,
+    "z_liq_min_angstrom": 20.0,
+    "z_liq_max_angstrom": 70.0,
+    "z_cathode_surface_angstrom": 16.0,
+    "z_anode_surface_angstrom": 74.0
+  },
+  "openmm": {
+    "nonbonded_method": "PME",
+    "nonbonded_cutoff_nm": 1.0,
+    "constraints": "HBonds",
+    "rigid_water": false,
+    "remove_cm_motion": true,
+    "ewald_error_tolerance": 0.0005
+  },
+  "md": {
+    "temperature_k": 298.15,
+    "pressure_bar": 1.0,
+    "use_barostat": false,
+    "timestep_fs": 2.0,
+    "friction_ps": 1.0,
+    "report_interval": 1000,
+    "neutral_relax_steps": 200000,
+    "cp_activation_steps": 100000,
+    "production_steps": 500000
+  },
+  "electrode": {
+    "spacing_angstrom": 3.5,
+    "edge_margin_angstrom": 1.5,
+    "layers_per_electrode": 5,
+    "interlayer_spacing_angstrom": 2.5,
+    "exclude_element": ["H"],
+    "gaussian_width_nm": 0.2,
+    "thomas_fermi_scale_invnm": 5.0,
+    "cg_error_tol": 1e-4,
+    "use_charge_constraint": true,
+    "charge_constraint_target_e": 0.0
+  },
+  "analysis": {
+    "electrode_margin_angstrom": 1.0,
+    "interface_width_angstrom": 5.0,
+    "li_coordination_cutoff_angstrom": 2.8
+  },
+  "voltage_schedule_v": [0.5, 1.0, 1.5, 2.0]
+}

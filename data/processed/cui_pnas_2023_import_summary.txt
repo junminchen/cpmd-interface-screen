@@ -1,0 +1,39 @@
+Cui PNAS 2023 CE dataset import summary
+rows: 150
+unique_formulations: 148
+references: 71
+ce_min: 80.000
+ce_max: 99.500
+current_min_ma_cm2: 0.100
+current_max_ma_cm2: 1.000
+units_from_source:
+  electrolyte: Electrolyte
+  solvent_1_volume_fraction: Volume %
+  solvent_2_volume_fraction: Volume %
+  solvent_3_volume_fraction: Volume %
+  solvent_1_molarity: mol/L
+  solvent_2_molarity: mol/L
+  solvent_3_molarity: mol/L
+  salt_1_molarity: mol/L
+  salt_2_molarity: mol/L
+  salt_3_molarity: mol/L
+  fc: FC
+  oc: OC
+  fo: FO
+  inor: InOr
+  f_total: F
+  f_solvent: sF
+  f_anion: aF
+  o_total: O
+  o_solvent: sO
+  o_anion: aO
+  c_total: C
+  c_solvent: sC
+  c_anion: aC
+  ce_percent: CE (%)
+  lce: LCE
+  method: Method
+  current_ma_cm2: Current (mA/cm2)
+  capacity_mah_cm2: Capacity (mAh/cm2)
+  cycle: Cycle
+  reference_id: Reference

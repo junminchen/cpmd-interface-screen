@@ -1,0 +1,31 @@
+{
+  "system_name": "fec_screening_example",
+  "formulation_id": "fec_screening_example",
+  "lithium_resnames": ["LiA", "Li"],
+  "additive_species": [
+    {
+      "name": "FEC",
+      "resnames": ["FEC"],
+      "donor_atoms": ["O00", "O02", "O06"]
+    }
+  ],
+  "reference_species": [
+    {
+      "name": "EC",
+      "resnames": ["ECA", "EC"],
+      "donor_atoms": ["O00", "O02", "O05"]
+    },
+    {
+      "name": "DMC",
+      "resnames": ["DMC"],
+      "donor_atoms": ["O01", "O03", "O04"]
+    }
+  ],
+  "electrode_margin_angstrom": 1.0,
+  "interface_width_angstrom": 5.0,
+  "bulk_region": {
+    "mode": "auto"
+  },
+  "li_coordination_cutoff_angstrom": 2.8,
+  "use_xy_pbc": true
+}

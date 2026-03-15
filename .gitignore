@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.dcd
+
+Example_OPLS/results/
+Example_OPLS/LiPF6_EC_DMC_inert_electrode/results/
+Example_OPLS/LiPF6_EC_DMC_thick_Li_electrode/results/
+Example_OPLS/LiPF6_EC_DMC_thick_Li_electrode/outputs/

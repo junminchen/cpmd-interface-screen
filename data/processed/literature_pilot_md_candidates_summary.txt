@@ -1,0 +1,16 @@
+Literature master + pilot build summary
+master_rows: 150
+master_unique_formulations: 148
+usable_for_md_yes: 53
+pilot_shortlist_rows: 41
+pilot_top30_rows: 30
+pilot_priority_high: 29
+pilot_priority_medium: 12
+pilot_ce_bin_counts:
+  low: 15
+  high: 14
+  mid: 12
+pilot_anion_counts:
+  TFSI: 18
+  FSI: 13
+  PF6: 10
